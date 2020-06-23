@@ -1,2 +1,1 @@
-# Tindog
-Self study with Bootstrap
+TinDog Starting Files
