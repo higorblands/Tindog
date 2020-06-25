@@ -129,7 +129,7 @@ body {
     margin-right: auto;
     width: 50%;
 }
-.icon :hover {
+.icon:hover {
     color: # ff4c68;
 }
 
