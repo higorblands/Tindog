@@ -1,5 +1,15 @@
-/**  ################## TAGS ################## **/
+/* -------------------------------------------------------------------------- */
+/*                                    TAGS                                    */
+/* -------------------------------------------------------------------------- */
+
 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+
+}
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     size: 3.5rem;
@@ -10,17 +20,38 @@ h1 {
 body {
     font-family: 'Montserrat', sans-serif;
 }
-/**  ################## Class ################## **/
-.container-fluid {
-    padding: 3% 15%;
-}
-/**  ################## ID ################## **/
+
+/* -------------------------------------------------------------------------- */
+/*                                     ID                                     */
+/* -------------------------------------------------------------------------- */
+
 #title {
     background-color: #ff4c68;
     color: #fff;
 }
-/**  ################## Nav Bar ################## **/
+#features {
+    padding: 7% 15%;
+}
+#testimonials {
 
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+
+}
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Nav Bar                                  */
+/* -------------------------------------------------------------------------- */
+
+.container-fluid {
+    padding: 7% 15%;
+}
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -37,19 +68,28 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
 }
-/**  ################## Download Buttons ################## **/
+
+/* -------------------------------------------------------------------------- */
+/*                              Download Buttons                              */
+/* -------------------------------------------------------------------------- */
+
 .download-button {
     margin: 5% 3% 5% 0;
 }
-/**  ################## Title Image ################## **/
+
+/* -------------------------------------------------------------------------- */
+/*                                 Title image                                */
+/* -------------------------------------------------------------------------- */
+
 .title-image {
     width: 60%;
     transform: rotate(25deg);
 }
-/**  ################## 2nd section ################## **/
-#features{
-    padding: 7% 15%;
-}
+
+/* -------------------------------------------------------------------------- */
+/*                                 2nd section                                */
+/* -------------------------------------------------------------------------- */
+
 .easy1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -68,28 +108,50 @@ body {
 }
 .elite2 {
     color: #6f6f6f;
-    text-align: center;
+    text -align: center;
 }
 .heart1 {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font -family: 'Montserrat', sans -serif;
     font-size: 1.5rem;
     font-weight: bold;
-
 }
 .heart2 {
     text-align: center;
-    color: #6f6f6f;
+    color: #6 f6f6f;
 }
 .icon {
     text-align: center;
-    color:#ef8172;
-    padding:5%;
+    color: # ef8172;
+    padding: 5%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-.icon:hover{
-    color:#ff4c68;
+.icon :hover {
+    color: # ff4c68;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Testimonials                                */
+/* -------------------------------------------------------------------------- */
+
+.testimonials-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    Press                                   */
+/* -------------------------------------------------------------------------- */
+
+.press-logo {
+    margin: 20px 20px 35px;
+    width: 10%;
+
 }
