@@ -112,17 +112,17 @@ body {
 }
 .heart1 {
     text-align: center;
-    font -family: 'Montserrat', sans -serif;
+    font -family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
 }
 .heart2 {
     text-align: center;
-    color: #6 f6f6f;
+    color: #6f6f6f;
 }
 .icon {
     text-align: center;
-    color: # ef8172;
+    color: #ef8172;
     padding: 5%;
     display: block;
     margin-left: auto;
@@ -130,7 +130,7 @@ body {
     width: 50%;
 }
 .icon:hover {
-    color: # ff4c68;
+    color: #ff4c68;
 }
 
 /* -------------------------------------------------------------------------- */
