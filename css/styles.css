@@ -28,9 +28,14 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    padding-bottom: 15%;
+    
 }
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 #testimonials {
 
@@ -44,11 +49,18 @@ body {
     padding-bottom: 3%;
     background-color: #ef8172;
 }
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                   Nav Bar                                  */
 /* -------------------------------------------------------------------------- */
 
+.container-fluid-top{
+    padding: 7% 15%;
+}
 .container-fluid {
     padding: 7% 15%;
 }
@@ -84,6 +96,9 @@ body {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+ 
 }
 
 /* -------------------------------------------------------------------------- */
@@ -108,11 +123,11 @@ body {
 }
 .elite2 {
     color: #6f6f6f;
-    text -align: center;
+    text-align: center;
 }
 .heart1 {
     text-align: center;
-    font -family: 'Montserrat', sans-serif;
+    font-family:'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -153,5 +168,11 @@ body {
 .press-logo {
     margin: 20px 20px 35px;
     width: 10%;
+
+}
+
+/* --------------------------------- Pricing -------------------------------- */
+.pricing-column{
+    padding:3% 2%;
 
 }
