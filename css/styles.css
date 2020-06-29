@@ -1,69 +1,84 @@
 /* -------------------------------------------------------------------------- */
 /*                                    TAGS                                    */
 /* -------------------------------------------------------------------------- */
-
-h1 {
+.big-heading {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     size: 3.5rem;
     line-height: 1.5;
-
 }
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    size: 3.5rem;
-    line-height: 1.5;
-
 }
-
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 /* -------------------------------------------------------------------------- */
 /*                                     ID                                     */
 /* -------------------------------------------------------------------------- */
-
 #title {
-    background-color: #ff4c68;
-    color: #fff;
     padding-bottom: 15%;
-    
+    text-align: left;
 }
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
 }
 #testimonials {
-
     background-color: #ef8172;
-    text-align: center;
     color: #fff;
-
 }
 #press {
-    text-align: center;
     padding-bottom: 3%;
     background-color: #ef8172;
 }
-#pricing{
+#pricing {
     padding: 100px;
-    text-align: center;
+}
+/* -------------------------------------------------------------------------- */
+/*                         White and Colored Sections                         */
+/* -------------------------------------------------------------------------- */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+    color: #000;
+}
+/* -------------------------------------------------------------------------- */
+/*                                 Containers                                 */
+/* -------------------------------------------------------------------------- */
+.container-fluid {
+    padding: 7% 15%;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                 Title Section                             */
+/* -------------------------------------------------------------------------- */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
 /* -------------------------------------------------------------------------- */
 /*                                   Nav Bar                                  */
 /* -------------------------------------------------------------------------- */
 
-.container-fluid-top{
-    padding: 7% 15%;
-}
-.container-fluid {
-    padding: 7% 15%;
-}
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -89,54 +104,21 @@ body {
     margin: 5% 3% 5% 0;
 }
 
-/* -------------------------------------------------------------------------- */
-/*                                 Title image                                */
-/* -------------------------------------------------------------------------- */
 
-.title-image {
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right:30%;
- 
-}
 
 /* -------------------------------------------------------------------------- */
 /*                                 2nd section                                */
 /* -------------------------------------------------------------------------- */
 
-.easy1 {
-    font-family: 'Montserrat', sans-serif;
+.text-features {
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
+
 }
-.easy2 {
-    color: #6f6f6f;
-    text-align: center;
-}
-.elite1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-}
-.elite2 {
-    color: #6f6f6f;
-    text-align: center;
-}
-.heart1 {
-    text-align: center;
-    font-family:'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.heart2 {
-    text-align: center;
+.text-features2 {
     color: #6f6f6f;
 }
 .icon {
-    text-align: center;
     color: #ef8172;
     padding: 5%;
     display: block;
@@ -157,8 +139,11 @@ body {
     margin: 20px;
     width: 10%;
 }
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -172,7 +157,28 @@ body {
 }
 
 /* --------------------------------- Pricing -------------------------------- */
-.pricing-column{
-    padding:3% 2%;
+.pricing-column {
+    padding: 3% 2%;
+
+}
+.text-pricing {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+
+}
+/* -------------------------------------------------------------------------- */
+/*                                 Media Query                                */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 
 }
