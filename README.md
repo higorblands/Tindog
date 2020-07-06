@@ -4,6 +4,9 @@ TinDog is a full responsive and viewport adapted mobile, tablet, desktop, etc...
 2 - Open index.html
 3 - Enjoy.
 
+Preview in Github pages 
+https://higorblands.github.io/Tindog/
+
 This is a open-source repository created by Higor Blandes in his self-study with Bootstrap.
 You can follow me on :
 
