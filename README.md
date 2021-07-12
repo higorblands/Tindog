@@ -11,7 +11,6 @@ This is a open-source repository created by Higor Blandes in his self-study with
 You can follow me on :
 
 https://www.linkedin.com/in/higorblandes/
-https://www.instagram.com/wwwhigor/
 
 Or send me a e-mail :
 higorblands@hotmail.com
